@@ -30,7 +30,5 @@ Le projet couvre :
    - Récupération des comptes et des banques depuis une base PostgreSQL via JDBC.
    - Affichage des listes de comptes et banques dans la console.
 
----
-
-## Structure du projet
+--
 
