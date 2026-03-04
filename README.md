@@ -15,12 +15,12 @@ Le projet couvre :
 
 1. **Gestion des comptes**
    - Création de comptes avec identifiant, propriétaire et solde.
-   - Dépôt et retrait d’argent avec validation des montants.
+   - Dépôt et retrait d'argent avec validation des montants.
    - Affichage des informations du compte avec la méthode `toString()`.
 
 2. **Comptes épargne**
    - Héritage de la classe `Compte`.
-   - Gestion du taux d’intérêt.
+   - Gestion du taux d'intérêt.
    - Calcul automatique des intérêts avec la méthode `calculerInterets()`.
 
 3. **Gestion des exceptions**
@@ -30,8 +30,23 @@ Le projet couvre :
    - Récupération des comptes et des banques depuis une base PostgreSQL via JDBC.
    - Affichage des listes de comptes et banques dans la console.
 
---
-### Capture d'exécution
+---
 
-![Capture d'exécution](screenshots/execution.png)
+## 📸 Captures d'écran
+
+### Structure de la base de données
+
+| Table Banque | Table Comptes |
+|:------------:|:-------------:|
+| ![Table Banque](screenshots/table_banque.png) | ![Table Comptes](screenshots/tables_comptes.png) |
+
+### Exécution du programme
+
+| Compilation | Résultat final |
+|:-----------:|:--------------:|
+| ![Exécution](screenshots/execution.png) | ![Résultat projet](screenshots/Execution_projet.png) |
+
+---
+
+
 
