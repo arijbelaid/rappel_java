@@ -1,5 +1,4 @@
 public class Banque {
-
     private int id;
     private String nom;
     private String ville;
@@ -10,10 +9,20 @@ public class Banque {
         this.ville = ville;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getVille() {
+        return ville;
+    }
+
     @Override
     public String toString() {
-        return "Banque [id=" + id +
-                ", nom=" + nom +
-                ", ville=" + ville + "]";
+        return "Banque [id=" + id + ", nom=" + nom + ", ville=" + ville + "]";
     }
 }
