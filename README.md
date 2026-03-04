@@ -31,4 +31,7 @@ Le projet couvre :
    - Affichage des listes de comptes et banques dans la console.
 
 --
+### Capture d'exécution
+
+![Capture d'exécution](screenshots/execution.png)
 
